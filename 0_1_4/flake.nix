@@ -11,6 +11,7 @@
   inputs.src-notify-0_1_4.ref   = "refs/tags/0.1.4";
   inputs.src-notify-0_1_4.owner = "xbello";
   inputs.src-notify-0_1_4.repo  = "notify-nim";
+  inputs.src-notify-0_1_4.dir   = "";
   inputs.src-notify-0_1_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

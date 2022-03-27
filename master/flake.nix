@@ -11,6 +11,7 @@
   inputs.src-notify-master.ref   = "refs/heads/master";
   inputs.src-notify-master.owner = "xbello";
   inputs.src-notify-master.repo  = "notify-nim";
+  inputs.src-notify-master.dir   = "";
   inputs.src-notify-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
